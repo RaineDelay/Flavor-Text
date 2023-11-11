@@ -1,15 +1,67 @@
 <html>
 	<head>
 		<title>Flavor Text</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<header>
-	  		<a href="#" class="logo">Logo</a>
-	  		<ul>
-		  		<li><a href="#">Home</a></li>
-				<li><a href="#">Pantry</a></li>
-				<li><a href="#">Find Recipes</a></li>
-	  		</ul>
-		</header>
+		<div class="main">
+			<nav>
+				<div class="logo">
+					<!-- add img src file --!>
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Pantry</a></li>
+						<li><a href="#">Find Recipes</a></li>
+						<li><a href="#">Profile</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		
+		<script type="module">
+
+  		// Import the functions you need from the SDKs you need
+
+  		import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+
+  		import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
+
+  		// TODO: Add SDKs for Firebase products that you want to use
+
+  		// https://firebase.google.com/docs/web/setup#available-libraries
+
+
+  		// Your web app's Firebase configuration
+
+  		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+  		const firebaseConfig = {
+
+    		apiKey: "AIzaSyAvoK4Eh9CKjTgZ-SgwKbysk0cQREwMgqw",
+
+    		authDomain: "flavortext-d7225.firebaseapp.com",
+
+    		projectId: "flavortext-d7225",
+
+    		storageBucket: "flavortext-d7225.appspot.com",
+
+    		messagingSenderId: "876487510000",
+
+    		appId: "1:876487510000:web:51486cea327985dc2fbf35",
+
+    		measurementId: "G-3MZ076SP80"
+
+  		};
+
+
+  		// Initialize Firebase
+
+  		const app = initializeApp(firebaseConfig);
+
+  		const analytics = getAnalytics(app);
+
+		</script>
 	</body>
 </html>
