@@ -19,7 +19,12 @@ nav{
 	align-items: center;
 }
 .logo{
-	flex-basis: 20%;
+	padding-left: 2em;
+}
+.logo.text{
+	font-family: serif;
+	font-style: oblique;
+	font-size: 1.5em;
 }
 .nav-links{
 	flex: 1;
