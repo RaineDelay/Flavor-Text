@@ -36,7 +36,8 @@ nav{
 	text-decoration: none;
 	border-radius: 20px;
 }
-.nav-links ul li a:hover, .active{
+.nav-links ul li a:hover, 
+.nav-links ul li a.active{
 	background: #fff;
 	color: #2b1055;
 }
