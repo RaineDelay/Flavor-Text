@@ -32,5 +32,11 @@ nav{
 }
 .nav-links ul li a{
 	color: #fff;
+	padding: 6px 15px;
 	text-decoration: none;
+	border-radius: 20px;
+}
+.nav-links ul li a:hover{
+	background: #fff;
+	color: #2b1055;
 }
